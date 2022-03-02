@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "Spencer's OneDrive",
+  title: "OneDrive网盘列表",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/',
@@ -53,10 +53,20 @@ module.exports = {
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
     },
     {
-      name: 'Telegram',
-      link: 'https://t.me/realSpencerWoo',
+      name: '关于',
+      link: '#',
     },
   ],
+//   links: [
+//     {
+//       name: 'GitHub',
+//       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
+//     },
+//     {
+//       name: 'Telegram',
+//       link: 'https://t.me/realSpencerWoo',
+//     },
+//   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
